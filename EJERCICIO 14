@@ -1,0 +1,9 @@
+PROCESO  INVERTIR_NUMERO
+ESCRIBIR "INGRESE NUMERO DE DOS CIFRAS:"
+Leer num
+
+decena <- num / 10
+unidad <-num mod 10
+invertido <- (unidad * 10 )+ decena
+ESCRIBIR "Numero invertido :", invertido
+FINPROCESO
