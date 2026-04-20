@@ -1,0 +1,11 @@
+PROCESO ENCUENTRO_VEHICULOS
+ ESCRIBIR "DISTANCIA ENTRE VEHICULOS (km):"
+ Leer d 
+ ESCRIBIR "velocidad del mas lento (km/h):"
+ Leer v1
+ ESCRIBIR "velocidad del mas rapido (km/h):"
+ Leer v2
+ tiempo_horas <- d / (v2 - V1) 
+ tiempo_minutos <- tiempo_horas * 60
+ ESCRIBIR "el vehiculo rapido alcanzara al otro en :" , tiempo_minutos, "minutos"
+ FINPROCESO
