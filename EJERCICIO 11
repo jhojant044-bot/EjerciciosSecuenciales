@@ -1,0 +1,12 @@
+Proceso  DISTANCIA  
+ ESCRIBIR "ingrese numero 1:"
+leer n1
+ESCRIBIR "ingrese numero 2:"
+leer n2
+distancia <- n1-n2
+Si distancia  < 0 entonces 
+  distancia <- distancia * -1
+  FINSI
+
+  ESCRIBIR "Distancia:", distancia 
+  FINPROCESO
