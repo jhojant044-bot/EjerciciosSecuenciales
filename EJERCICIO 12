@@ -1,0 +1,16 @@
+PROCESO  DISTANCIA_PUNTOS
+ ESCRIBIR "INGRESE x1:"
+ Leer x1
+ ESCRIBIR "INGRESE y1:"
+ Leer y1
+
+ ESCRIBIR "INGRESE x2:"
+ Leer x2
+ ESCRIBIR "INGRESE y2:"
+ Leer y2
+ 
+ dx <- x2-x1
+ dy <- y2-y1
+ distancia <- rc ((dx * dx) + (dy * dy))
+ ESCRIBIR "Distancia:", distancia 
+ FINPROCESO
