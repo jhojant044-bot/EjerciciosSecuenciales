@@ -1,0 +1,10 @@
+PROCESO  RAICES
+ESCRIBIR "INGRESE NUMERO:"
+Leer num
+
+raizCuadrada <- rc (num)
+raizCubica <- num ^ (1/3)
+
+ESCRIBIR "Raiz cuadrada:", raizCuadrada
+ESCRIBIR "Raiz cubica :" , raizCubica
+FINPROCESO
